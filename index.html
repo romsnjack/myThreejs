@@ -39,10 +39,10 @@
 			const mesh = new THREE.Mesh(geometry, material);
 			scene.add(mesh);
 
-			camera.position.z = 3;
+			camera.position.z = 10;
 
 			const update = function () {
-				mesh.rotation.x += 0.01;
+				mesh.rotation.x += 0.005;
 				mesh.rotation.y += 0.005;
 			};
 

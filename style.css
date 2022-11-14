@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-/*.left,
+.left,
 .right {
 	float: left;
 	width: 20%;
@@ -20,4 +20,4 @@ body {
 	.right {
 		width: 100%;
 	}
-}*/
+}
