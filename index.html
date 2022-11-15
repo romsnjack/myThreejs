@@ -9,9 +9,12 @@
 	</head>
 	<body>
 		<script src="three.js"></script>
+
 		<a class="romsn">romsn</a>
 		<a class="github" href="https://github.com/romsnjack">github</a>
 		<a class="twitter" href="https://twitter.com/romsnjack">twitter</a>
+		<a class="symbol">&lt;/&gt;</a>
+
 		<script>
 			const scene = new THREE.Scene();
 			const camera = new THREE.PerspectiveCamera(
@@ -39,6 +42,7 @@
 				color: 'white',
 				wireframe: true,
 			});
+
 			const mesh = new THREE.Mesh(geometry, material);
 			scene.add(mesh);
 

@@ -23,16 +23,11 @@ body {
 	display: block;
 	color: gray;
 	text-decoration: none;
+	transition-duration: 0.4s;
 }
 
 .github:hover {
-	position: absolute;
-	bottom: 20px;
-	left: 25px;
-	z-index: 100;
-	display: block;
 	color: white;
-	text-decoration: none;
 }
 
 .twitter {
@@ -43,15 +38,20 @@ body {
 	display: block;
 	color: gray;
 	text-decoration: none;
+	transition-duration: 0.4s;
 }
 
 .twitter:hover {
+	color: white;
+}
+
+.symbol {
 	position: absolute;
 	bottom: 20px;
-	left: 100px;
+	right: 25px;
 	z-index: 100;
 	display: block;
-	color: white;
+	color: gray;
 	text-decoration: none;
 }
 
