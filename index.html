@@ -9,7 +9,10 @@
 	</head>
 	<body>
 		<script src="three.js"></script>
+		<canvas id="canvas"></canvas>
 		<script>
+			const canvas = document.getElementById("canvas");
+	
 			const scene = new THREE.Scene();
 			const camera = new THREE.PerspectiveCamera(
 				75,
@@ -18,7 +21,7 @@
 				1000
 			);
 
-			const renderer = new THREE.WebGLRenderer();
+			const renderer = new THREE.WebGLRenderer({canvas});
 			renderer.setSize(window.innerWidth, window.innerHeight);
 			document.body.appendChild(renderer.domElement);
 
