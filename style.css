@@ -7,7 +7,7 @@ body {
 
 .romsn {
 	position: absolute;
-	top: 20px;
+	bottom: 20px;
 	left: 25px;
 	z-index: 100;
 	display: block;
@@ -17,8 +17,8 @@ body {
 
 .github {
 	position: absolute;
-	bottom: 20px;
-	left: 25px;
+	top: 20px;
+	right: 100px;
 	z-index: 100;
 	display: block;
 	color: gray;
@@ -32,8 +32,8 @@ body {
 
 .twitter {
 	position: absolute;
-	bottom: 20px;
-	left: 100px;
+	top: 20px;
+	right: 25px;
 	z-index: 100;
 	display: block;
 	color: gray;
