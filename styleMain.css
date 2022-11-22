@@ -1,8 +1,16 @@
-html,
-body {
+* {
 	margin: 0;
-	background-color: black;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: black;
 }
 
 .romsn {
