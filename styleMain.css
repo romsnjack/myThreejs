@@ -13,21 +13,25 @@ body {
 	display: block;
 	color: gray;
 	text-decoration: none;
+	letter-spacing: 0.05em;
 }
 
 .github {
 	position: absolute;
 	top: 20px;
-	right: 100px;
+	right: 120px;
 	z-index: 100;
 	display: block;
 	color: gray;
 	text-decoration: none;
 	transition-duration: 0.4s;
+	letter-spacing: 0.05em;
 }
 
 .github:hover {
 	color: white;
+	transition-duration: 0.4s;
+	letter-spacing: 0.05em;
 }
 
 .twitter {
@@ -39,10 +43,13 @@ body {
 	color: gray;
 	text-decoration: none;
 	transition-duration: 0.4s;
+	letter-spacing: 0.05em;
 }
 
 .twitter:hover {
 	color: white;
+	transition-duration: 0.4s;
+	letter-spacing: 0.05em;
 }
 
 .symbol {
@@ -53,6 +60,7 @@ body {
 	display: block;
 	color: gray;
 	text-decoration: none;
+	letter-spacing: 0.05em;
 }
 
 /*.left,
