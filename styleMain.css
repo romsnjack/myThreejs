@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Cascadia Code', monospace;
+	font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -68,24 +68,12 @@ body {
 	display: block;
 	color: gray;
 	text-decoration: none;
+	transition-duration: 0.4s;
 	letter-spacing: 0.05em;
 }
 
-/*.left,
-.right {
-	float: left;
-	width: 20%;
+.symbol:hover {
+	color: white;
+	transition-duration: 0.4s;
+	letter-spacing: 0.05em;
 }
-
-.main {
-	float: left;
-	width: 60%;
-}
-
-@media screen and (max-width: 800px) {
-	.left,
-	.main,
-	.right {
-
-	}
-}*/
