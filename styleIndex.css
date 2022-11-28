@@ -57,6 +57,7 @@ body {
 	margin-left: 100px;
 	border-radius: 4px;
 	font-weight: 600;
+	font: gray;
 	cursor: pointer;
 	transition-duration: 0.4s;
 	letter-spacing: 0.05em;
